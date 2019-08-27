@@ -1,0 +1,135 @@
+Somalia42:~ alumno$ mkdir practica_2
+
+Somalia42:~ alumno$ cd practica_2
+
+Somalia42:practica_2 alumno$ touch fundamentos archivo.txt
+
+Somalia42:practica_2 alumno$ cd fundamentos
+
+-bash: cd: fundamentos: Not a directory
+
+Somalia42:practica_2 alumno$ find . -name fundamentos
+
+./fundamentos
+
+Somalia42:practica_2 alumno$ Miguel
+
+-bash: Miguel: command not found
+
+Somalia42:practica_2 alumno$ echo "Miguel Angel"
+
+Miguel Angel
+
+Somalia42:practica_2 alumno$ mkdir fundamentos
+
+mkdir: fundamentos: File exists
+
+Somalia42:practica_2 alumno$ cd practica_2
+
+-bash: cd: practica_2: No such file or directory
+
+Somalia42:practica_2 alumno$ cat .txt
+
+cat: .txt: No such file or directory
+
+Somalia42:practica_2 alumno$ rm fundamentos
+
+Somalia42:practica_2 alumno$ mkdir fundamentos
+
+Somalia42:practica_2 alumno$ mkdir algebra
+
+Somalia42:practica_2 alumno$ mkdir calculo
+
+Somalia42:practica_2 alumno$ mkdir fisica
+
+Somalia42:practica_2 alumno$ mkdir quimica
+
+Somalia42:practica_2 alumno$ cd fundamentos
+
+Somalia42:fundamentos alumno$ pwd
+
+/Users/alumno/practica_2/fundamentos
+
+Somalia42:fundamentos alumno$ touch archivo.txt
+
+Somalia42:fundamentos alumno$ ls
+
+archivo.txt
+
+Somalia42:fundamentos alumno$ echo "Miguel Angel Rodriguez Santana, 317115727 " >> archivo.txt
+
+Somalia42:fundamentos alumno$ cat archivo.txt
+
+Miguel Angel Rodriguez Santana, 317115727 
+
+Somalia42:fundamentos alumno$ cd algebra
+
+-bash: cd: algebra: No such file or directory
+
+Somalia42:fundamentos alumno$ cd practica_2
+
+-bash: cd: practica_2: No such file or directory
+
+Somalia42:fundamentos alumno$ cd ..
+
+Somalia42:practica_2 alumno$ cd algebra
+
+Somalia42:algebra alumno$ touch archivo.txt
+
+Somalia42:algebra alumno$ echo"Miguel Angel Rodriguez Santana, 317115727" >> archivo.txt
+
+-bash: echoMiguel Angel Rodriguez Santana, 317115727: command not found
+
+Somalia42:algebra alumno$ cat archivo.txt
+
+Somalia42:algebra alumno$ echo "Miguel Angel Rodriguez Santana, 317115727" >> archivo.txt
+
+Somalia42:algebra alumno$ cat archivo.txt
+
+Miguel Angel Rodriguez Santana, 317115727
+
+Somalia42:algebra alumno$ cd ..
+
+Somalia42:practica_2 alumno$ cd calculo
+
+Somalia42:calculo alumno$ touch archivo.txt
+
+Somalia42:calculo alumno$ echo "Miguel Angel Rodriguez Santana, 317115727" >> archivo.txt
+
+Somalia42:calculo alumno$ cat archivo.txt
+
+Miguel Angel Rodriguez Santana, 317115727
+
+Somalia42:calculo alumno$ cd ..
+
+Somalia42:practica_2 alumno$ cd fisica
+
+Somalia42:fisica alumno$ touch archivo.txt
+
+Somalia42:fisica alumno$ echo "Miguel Angel Rodriguez Santana, 317115727" >> archivo.txt
+
+Somalia42:fisica alumno$ cat archivo.txt
+
+Miguel Angel Rodriguez Santana, 317115727
+
+Somalia42:fisica alumno$ cd ..
+
+Somalia42:practica_2 alumno$ cd quimica
+
+Somalia42:quimica alumno$ touch archivo.txt
+
+Somalia42:quimica alumno$ echo "Miguel Angel Rodriguez Santana, 317115727" >> archivo.txt
+
+Somalia42:quimica alumno$ cat archivo.txt
+
+Miguel Angel Rodriguez Santana, 317115727
+
+Somalia42:quimica alumno$ cd ..
+
+Somalia42:practica_2 alumno$ ls
+
+algebra		calculo		fundamentos
+
+archivo.txt	fisica		quimica
+
+Somalia42:practica_2 alumno$ 
