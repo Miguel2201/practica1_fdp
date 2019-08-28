@@ -1,0 +1,29 @@
+* Dado un precio calcular su descuento considerando que si el precio es mayor de $100 el descuento será del 10% de otro modo descontar solo un 2%
+ENTRADA: Precio 
+SALIDA:Precio con descuento 
+1. Solicitar el precio 
+2. Si es mayor a 100 multiplicar por 0.10 y el resultado restárselo al precio.
+3. Si es menor a 100 multiplicar por 0.02 y el resultado restárselo al precio.
+4. El precio con descuento es de 
+
+* Un algoritmo que lea dos numeros y que calculé su suma, resta, multiplicación  y división 
+ENTRADA:Numero 1, Numero 2
+SALIDA:Suma, resta, multiplicación y división de dos números 
+RESTRICCIONES:Los numeres deben ser diferentes y positivos 
+1. Leer dos números 
+2. Realizar la suma de los Numero 1 y Numero 2
+3. Realizar la resta de los Numero 1 y  Numero 2
+4. Realizar la multiplicación de los Numero 1 y Numero 2
+5. Realizar la división de los Numero 1 y Numero 2
+6. Mostrar cada uno de los resultados para terminar
+
+
+* Leer tres números que van a denotar una fecha, verificar si es una fecha valida 
+ENTRADA:Tes numeres de dos dígitos 
+SALIDA:Fecha valida 
+RESTRICCIONES:El primer numero no puede ser mayor a 31 y el segundo a 12 
+1. Leer los tres números 
+2. Acomodarlos en un formato 31/12/19
+3. Compararlo con fechas en el calendario 
+4. Si no es fecha valida regresar al punto 1
+5. Si es fecha valida mostrarlo y finalizar 
